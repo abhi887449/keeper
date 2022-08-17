@@ -1,0 +1,10 @@
+.animation{
+    font-style: italic;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+  }
+  @keyframes animate {
+    from {transform: rotate(-360deg);}
+    to {transform: rotate(0deg);}
+  }

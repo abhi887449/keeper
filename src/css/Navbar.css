@@ -1,0 +1,14 @@
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.keeper{
+    /* padding-left: 10px; */
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.s-bar{
+    width: 30rem;
+    text-align: center;
+}

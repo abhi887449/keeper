@@ -1,0 +1,16 @@
+.hover{
+    color: white;
+    padding: 15px;
+}
+.hover:hover{
+    background-color: #313131;
+}
+.fixbgc{
+    background-color: #41331c;
+    padding: 15px;
+    color: white;
+}
+.iconsize{
+    height: 30px;
+    width: 30px;
+}

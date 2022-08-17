@@ -1,0 +1,24 @@
+#kanimate{
+    animation: example 0.8s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {
+        color: grey
+    }
+    25%   {
+        color: white;
+    }
+    50%   {
+        color: grey;
+    }
+    75%   {
+        color: white;
+    }
+    100%   {
+        color: grey
+    }
+    
+    
+    }
