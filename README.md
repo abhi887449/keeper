@@ -1,5 +1,5 @@
-<div style="text-align: center;"><img style="border-radius:60px;" src="./src/images/Keeper-logo.png" width="100" height="100">
-<p style="font-size:25px;font-weight:bold;">Keeper</p></div>
+<div align=center><img style="border-radius:60px;" src="./src/images/Keeper-logo.png" width="100" height="100">
+<h2 style="font-size:25px;font-weight:bold;">Keeper</h2></div>
 
 <h1 style="font-size:25px;font-weight:bold;">What does Keeper do?</h1>
 <p>Keeper is a web app created using React js and mongodb database.</p>
