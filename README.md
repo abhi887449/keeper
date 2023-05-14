@@ -1,22 +1,22 @@
-<div style="text-align: center;"><img style="border-radius:60px;" src="./src/images/Keeper-logo.png" width="100" height="100">
-<p style="font-size:25px;font-weight:bold;">Keeper</p></div>
+<div align=center><img style="border-radius:60px;" src="https://github.com/abhi887449/keeper/blob/main/src/images/Keeper-logo.png" width="100" height="100">
+<h2 style="font-size:25px;font-weight:bold;">Keeper</h2></div>
 
 <h1 style="font-size:25px;font-weight:bold;">What does Keeper do?</h1>
 <p>Keeper is a web app created using React js and mongodb database.</p>
 <p>Keeper can take notes, set remainder on notes for each users. </p>
 
 <h1 style="font-size:25px;font-weight:bold;">Home page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-home.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-home.png" width="300">
 <h1 style="font-size:25px;font-weight:bold;">Create Note page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-create.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-create.png" width="300">
 <h1 style="font-size:25px;font-weight:bold;">Notes page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-notes.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-notes.png" width="300">
 <h1 style="font-size:25px;font-weight:bold;">Reaminder page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-remainder.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-remainder.png" width="300">
 <h1 style="font-size:25px;font-weight:bold;">Archived page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-Archived.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-Archived.png" width="300">
 <h1 style="font-size:25px;font-weight:bold;">Profile page</h1>
-<img style="margin:2px" src="./src/images/Screenshot-profile.png" width="300">
+<img style="margin:2px" src="https://github.com/abhi887449/keeper/blob/main/src/images/Screenshot-profile.png" width="300">
 
 
 <h1 style="font-size:25px;font-weight:bold;">How to run?</h1>
