@@ -4,7 +4,7 @@ const fetchuser = require('../middleware/fetchuser');
 const Note = require('../models/Note');
 const { body, validationResult } = require('express-validator');
 
-//Route1 Fetching logged in user notes:GET"http://localhost:3000/api/fetchnotes" Login required
+//Route1 Fetching logged in user notes:GET"http://localhost:5000/api/fetchnotes" Login required
 router.get("/fetchnotes", fetchuser, async (req, res) => {
     try {
         const notes = await Note.find({ user: req.user.id });
@@ -15,7 +15,7 @@ router.get("/fetchnotes", fetchuser, async (req, res) => {
     }
 })
 
-//Route2 Add new notes: POST "http://localhost:3000/api/addnote" Login required
+//Route2 Add new notes: POST "http://localhost:5000/api/addnote" Login required
 router.post("/addnote", fetchuser, [
     body('title', 'Enter a valid Title').isLength({ min: 2 }),
     body('description', 'description length must be greater than 5 characters').isLength({ min: 5 }),
@@ -37,7 +37,7 @@ router.post("/addnote", fetchuser, [
         res.status(500).send("some error occured");
     }
 })
-//Route3 Updating note: PUT "http://localhost:3000/api/updatenote" Login required
+//Route3 Updating note: PUT "http://localhost:5000/api/updatenote" Login required
 router.put("/updatenote/:id", fetchuser, [
     body('title', 'Enter a valid Title').isLength({ min: 2 }),
     body('description', 'description length must be greater than 5 characters').isLength({ min: 5 }),
@@ -68,7 +68,7 @@ router.put("/updatenote/:id", fetchuser, [
 })
 
 
-//Route4 Delete note: DELETE "http://localhost:3000/api/deletenote" Login required
+//Route4 Delete note: DELETE "http://localhost:5000/api/deletenote" Login required
 router.delete("/deletenote/:id", fetchuser, async (req, res) => {
     try {
         //checking note is present or not
